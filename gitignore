@@ -1,0 +1,53 @@
+# Python
+# Byte-code files
+*.pyc
+__pycache__/
+# Virtual environment
+venv/
+env/
+# Pip
+pip-wheel-metadata/
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.whl
+
+# Django
+# Local SQLite database file
+db.sqlite3
+
+# Media and static file directories (if collected locally for development)
+# You may want to track these in production, adjust as needed.
+/media/
+/static/
+
+# Log files
+*.log
+# Django specific settings file for local development (if used)
+local_settings.py
+
+# IDEs and other
+.idea/  # Pycharm
+.vscode/ # VS Code (uncomment if you want to ignore all VS Code settings)
+.ruff_cache/ # Ruff linter cache
+
+# Operating System / Miscellaneous
+.DS_Store # macOS
+.env # Environment variables file (contains sensitive info)
+
+planejamento.txt
+
+
+
