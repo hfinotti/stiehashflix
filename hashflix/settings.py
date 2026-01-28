@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-if TOKEN_CSRF:
+if TOKEN_CSRF: # esta é uma variavel de ambiente que deve ser criada no servidor.
     SECRET_KEY = TOKEN_CSRF
     CSRF_TRUSTED_ORIGINS = ['https://dominiodoprojeto']
 else:
